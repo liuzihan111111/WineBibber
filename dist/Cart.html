@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<title>酒仙网购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/Cart.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cookiePackag.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/commo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+
+	<body>
+		<!--最顶部-->
+		<div class="topHeder-wrap">
+			<div class="topHeder" style="width: 1000px;">
+				<div class="topHeder-left">
+					<p style="width: none; margin-right: 10px; ">Hi&nbsp;</p>
+					<a href="login.html">请登录</a>
+					<a href="register.html">免费注册</a>
+				</div>
+
+				<div class="topHeder-right" style="width: 310px;">
+					<ul>
+						<li class="hr-5">
+							<a href="#">我的订单</a> |
+						</li>
+						<li class="hr-5">
+							<a href="index.html">我的酒仙网</a> |
+						</li>
+						<li class="hr-9">
+							客服热线 <b style="color: #ca1926;font-size: 16px; font-weight: bold;">400-617-9999</b>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--middleHeader-->
+		<div class="mHeder-wrap">
+			<div class="mHeder" style="width:1000px">
+				<!--logo-->
+				<div class="headLogo">
+					<a href="#" class="jxlogo">
+						<img src="img/logo.png" />
+					</a>
+				</div>
+				<!--物流信息-->
+				<div class="buyProcess">
+					<div class="wuliu"></div>
+					<div class="proTex">
+						<span class="on">我的购物车</span>
+						<span class="on2">确认订单信息</span>
+						<span class="on3">成功提交订单</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--内容部分-->
+		<div class="Cart-wrap">
+			<!--最外框-->
+			<div class="Cart-center">
+				<!--中心框-->
+				<!--温馨提示-->
+				<div class="tishi">
+					<span>温馨提示：自营商品实付满100元免运费，偏远地区满500免运费</span>
+				</div>
+				<!--购物车内容-->
+				<!--每添加一条购物车记录，需要给“'crt-t添加一个”cart-tbody'-->
+				<div class="cart-t">
+					<div class="cart-bar">
+						我的购物车
+					</div>
+					<div class="cart-thead">
+						<div class="cTab-tr cart-checkbox">
+							<label class="check-all checkbox-checked ">
+		        				<input  type="checkbox"  class="Allcheck">
+		        			</label>
+							<span class="checkAllText">全选</span>
+						</div>
+						<div class="cTab-tr cart-goods">商品信息</div>
+						<div class="cTab-tr cart-price">单价</div>
+						<div class="cTab-tr cart-gold">送金币</div>
+						<div class="cTab-tr cart-quantity">数量</div>
+						<div class="cTab-tr cart-subtotal">小计</div>
+						<div class="cTab-tr cart-operating">操作</div>
+					</div>
+					<!--每一条购物车记录-->
+					<!--<div class="cart-tbody">
+						<div class="cart-shop">
+							<span>品正源清旗舰店</span>
+						</div>
+						<div class="CartList-wrap">
+								<div class="cart-list select-bg">
+
+									<div class="cTab-tr cart-checkbox noMt">
+										<label class="click-checkbox checkbox-checked ">
+	               							<input name="" type="checkbox"   >
+	               					</label>
+									</div>
+									<div class="cTab-tr cart-goods">
+										<div class="goods-info">
+											<div class="goods-img">
+												<a href="http://www.jiuxian.com/goods-42846.html" target="_blank">
+													<img src="https://img07.jiuxian.com/2017/0929/d7ac2f778c764324a71d1d64e09ca8314.jpg" width="80" height="80">
+												</a>
+
+											</div>
+											<div class="goods-right">
+												<div class="goods-name">
+													<a href="http://www.jiuxian.com/goods-42846.html" target="_blank">贵州茅台</a>
+												</div>
+												<div class="cart-tag">
+													<span>限时抢购</span>
+													<span>多买多赠</span> </div>
+											</div>
+										</div>
+									</div>
+
+									<div class="cTab-tr cart-price">
+										<div class="goods-price">￥458.00</div>
+									</div>
+									<div class="cTab-tr cart-gold">
+										<div class="goods-gold">229金币</div>
+									</div>
+									<div class="cTab-tr cart-quantity">
+										<div class="goods-num">
+											<input type="number" class="num" value="1"  min="1"  style="width: 65px;">
+										</div>
+									</div>
+									<div class="cTab-tr cart-subtotal">
+										<div class="goods-total-price">￥458.00</div>
+									</div>
+									<div class="cTab-tr cart-operating">
+										<div class="goods-operating">
+											<p>
+												<a href="javascript:;" class="list-del">删除</a>
+											</p>
+											<p>
+												<a href="javascript:;" class="move-collect">移入我的收藏</a>
+											</p>
+										</div>
+									</div>
+
+								</div>
+						</div>
+					</div>-->
+
+				</div>
+
+				<!--结算-->
+				<div class="cart-gopay-bottom">
+					<div class="cart-gopay-left">
+						<label class="check-all">
+							<input name="" type="checkbox" class="Allcheck">
+							<span class="checkAllText">全选</span>
+						</label>
+						<a href="javascript:;"  class="Alldel">删除选中商品</a>
+					</div>
+					<div class="cart-count">
+						<div class="cart-count-total">
+							<span class="pieces">
+								已选商品
+								<em>0</em>件
+							</span>
+							<span class="total">
+								总价（不含运费）：
+								<em>0</em>
+							</span>
+						</div>
+						<div class="cart-count-offer">
+							<span>活动优惠：
+								<em>￥0.00</em>
+							</span>
+							<span>赠送金币：
+								<em>229</em>个
+							</span>
+						</div>
+					</div>
+					<div class="cart-gopay-btn">
+						<a href="javascript:;" class="" style="display:inherit">去结算</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!--尾部-->
+		<div class="cart-footer"></div>
+		
+		
+		<!--弹窗部分-->
+		<div class="pop-up">
+			<div class="confirm-bg">
+				<div class="confirm">
+					<div class="confirm-tit">
+						<span>删除</span>
+						<span  class="del">X</span>
+					</div>
+					<div class="confirm-body">
+						<p><b>!</b>确定要删除该商品吗?</p>
+						<div><button>确定</button><button>取消</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+
+</html>
