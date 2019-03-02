@@ -28,7 +28,8 @@ $(function(){
 	function Singchecked(){
 		
 		$(".cart-tbody  input[type='checkbox']").click(function(){
-
+			
+			//计算总计和总件数
 			$(".cart-count-total .total em").html(Total().tPice);
 			$(".cart-count-total .pieces em").html(Total().tNum);
 			
@@ -163,7 +164,7 @@ $(function(){
 				$(".goods-num .reduce").click(function(){
 					var count=$(this).siblings("input[type=number]").val();
 					console.log($(this));
-					console.log(count)
+					//console.log(count)
 					if(count>=2){
 						var id=$(this).parents(".cart-quantity").data("id");
 						var gid=$(this).parents(".cart-quantity").data("gid");
@@ -184,7 +185,10 @@ $(function(){
 					
 				})
 	
-				
+				//计算总计和总件数
+				//console.log(Total().tPice,Total().tNum)
+			$(".cart-count-total .total em").html(Total().tPice);
+			$(".cart-count-total .pieces em").html(Total().tNum);
 			}
 				
 				
@@ -208,6 +212,7 @@ $(function(){
 				
 				//location.reload();
 				CartList();
+				
 			}
 		)
 	}
@@ -241,6 +246,7 @@ function Alldel(){
 					var gid=listDel.data("gid");
 					//console.log(id,gid);
 					del(id,gid);	
+					Total();
 				}
 		});
 		
