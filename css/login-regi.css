@@ -1,0 +1,297 @@
+.login-wrap{
+	width: 100%;
+	min-height: 1000px;
+	height: auto !important;
+	height: 1000px;	 
+}
+.login-wrap i{
+	background: url(../img/regLogin-8.png) no-repeat;
+}
+.login-top-header{
+	width: 100%;
+	background: #fff;
+	height: 88px;
+	box-shadow: 1px 2px 6px #e1e1e1;
+	z-index: 1;
+	position: relative;
+}
+.top-header{
+	width: 1000px;
+	height: 88px;
+	margin: 0 auto;
+}
+.jx-logo{
+	width: 257px;
+	height: 63px;
+	float: left;
+	margin-top: 15px;
+}
+.jx-logo a{
+	display: inline-block;
+	width: 140px;
+	height: 63px;
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+}
+.jx-logo img{
+	width: 117px;
+	display: inline-block;
+	float: right;
+	height: 63px;
+}
+.login-nav{
+	width: 250px;
+	height: 14px;
+	line-height: 14px;
+	float: right;
+	color: #999;
+	font-size: 12px;
+	margin-top: 48px;
+}
+.login-nav span{
+	display: inline-block;
+}
+.login-nav a{
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+.login-help{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.login-help em{
+	font-style: normal;
+	
+}
+.login-help .jx-jt{
+	display: inline-block;
+	background-position: -23px 0;
+	width: 15px;
+	height: 14px;
+}
+.help-con{
+	display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: -6px;
+    left: -10px;
+    width: 85px;
+    z-index: 1;
+    padding-top: 26px;
+    text-align: center;
+}
+.help-con li{
+	border-top: 1px dotted #ccc;
+	height: 24px;
+	line-height: 24px;
+	background: #fff;
+}
+.help-con li a{
+	color: #999;
+	margin: 0;
+}
+/******头部结束*******/
+.login-conWrp{
+	width: 100%;
+	height: 650px;
+	background: url(../img/loginbg.jpg) no-repeat center top;
+}
+.login-con{
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	width: 350px;
+	height: 330px;
+	top: 100px;
+	left: 810px;
+	background: #fff;	
+}
+.loginLink{
+	display: block;
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	cursor: pointer;
+}
+.loginLink i{
+	background-position: 0 -230px;
+	width: 65px;
+	height: 65px;
+	display: block;
+}
+.login-form{
+	width: 270px;
+	height: 370px;
+	margin-left: 40px;
+	margin-top: 24px;
+}
+ .login-tit{
+    margin: 14px 0 19px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.login-tit a.on {
+    color: #e4393c;
+    font-weight: bold;
+}
+.login-tit a {
+    float: left;
+    display: inline-block;
+    color: #999;
+    font-size: 16px;
+}
+.login-tit span {
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    padding: 0 18px;
+}
+.loginType{
+	height: 200px;
+	border-bottom: 1px dotted #ccc;
+	overflow: hidden;
+}
+.user {
+	height:40px;
+	width: 265px;
+	position: relative;
+	border: 1px solid #CECECE;
+	line-height: 42px;
+}
+
+.user input {
+	width: 265px;
+	height: 34px;
+	line-height: 40px;
+	color: #999;
+	border: none;
+	/*border: 1px solid #ff6666;*/
+	font-size: 16px;
+}
+.user span {
+	position: absolute;
+	left: 110px;
+	top: 30px;
+	width: 300px;
+	display: inline-block;
+	color: red;
+	overflow: hidden;	
+}
+.user b{
+	position: absolute;
+	left: 2px;
+	top: 41px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	background: red;
+	display:none;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 50%;	
+}
+.sub {
+	border: none;
+	height: 40px;
+	width: 270px;
+	background-color: red;
+	display: inline-block;
+	color: #fff;
+}
+.moreChoice {
+	height: 30px;
+	line-height: 30px;
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+.moreChoice .auto {
+    float: left;
+}
+.moreChoice .auto, .moreChoice .forgetPwd {
+    color: #999;
+    display: inline-block;
+}
+.moreChoice .freeReg {
+    color: #0066cc;
+    display: inline-block;
+    float: right;
+    padding-left: 13px;
+}
+.moreChoice .forgetPwd {
+    float: right;
+}
+.check{
+	float: left;
+	margin-top:10px ;
+}
+/*******尾部********/
+.login-footer{
+	width: 100%;
+	height: 90px;
+	padding-top: 10px;
+	font-size:12px ;
+}
+.login-footer p{
+	width: 100%;
+	text-align: center;
+    line-height: 30px;
+    color: #333;
+}
+.login-footer .red{
+	color: red;
+}
+.login-footer a{color: #333;}
+.login-footer a:hover{
+	color: #cc0001;
+	text-decoration: underline;
+}
+/*****************注册界面内容部分******************/
+.regeister-conWrp{
+	background: url(../img/rebg.jpg) repeat-x scroll left top;
+    padding-top: 70px;
+    width: 100%;
+    padding: 0 0 50px;
+    height: 600px;
+    overflow: hidden;
+}
+.RegType{
+	width: 411px;
+	height: 390px;
+	background: #fff;
+	margin: 2px auto;
+	padding: 83px 250px;
+	border: 3px solid #eaeaea;
+	border-radius: 5px;
+	box-shadow: 1px 6px 11px #e4e4e4;
+}
+.RegType .user{
+	width: 350px;
+	border: none;
+
+}
+.RegType .user input{
+	border: 1px solid #CECECE;
+}
+.RegType .l{
+	width: 75px;
+	display: inline-block;
+}
+.RegType .sub{
+	width: 350px;
+	margin-top:15px ;
+}
+.user .sex{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 10px 20px 0 12px;
+}

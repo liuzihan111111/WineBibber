@@ -1,0 +1,219 @@
+
+
+.pocList-wrap{
+	width: 100%;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px; 
+}
+.pocList{
+	width: 1200px;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px; 
+	margin: 0 auto;
+}
+/***********翻页*/
+.fenye{
+	margin: 10px 0;
+	height: 34px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+.fenye-center{
+	float: right;
+	color: #ccc;
+	font-size: 14px;
+	padding-top: 8px;
+	padding-right: 10px;
+}
+.fenye p{
+	display: inline-block;
+	
+}
+.fenye em{
+	font-style: normal;
+}
+.fenye b{
+	font-weight: normal;
+	color: red;
+}
+.fenye span{
+	display: inline-block;
+	width:15px;
+	height: 15px;
+	border: 1px solid #ccc;
+	line-height: 15px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #999;
+}
+/********商品选择********/
+.choose{
+	float: left;
+}
+.choose span{
+	display: inline-block;
+	width: 70px;
+	height: 32px;
+	border-right: 1px solid #ddd;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	background: #c41921;
+	color: #fff;
+}
+
+
+
+
+/*商品列表*/
+.pocList ul.pro-list{
+	width: 1200px;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px; 
+	overflow: hidden;
+	
+}
+.pocList  ul.pro-list  li{
+	width: 182px;
+    height: 250px;
+    margin: 20px  25px;
+    font-size: 12px;
+    float: left;
+}
+
+
+.pocList .Poc-con{
+	width: 160px;
+    height: 160px;
+    padding: 0 11px;
+}
+.Poc-con img{
+	width: 100%;
+	height: 100%;
+}
+.pocList .tabTit{
+	margin: 5px 0;
+}
+.pocList .tabPrice{
+	height: 50px;
+	padding-top: 3px;
+}
+.tabPrice a{
+	width: 75px;
+	height: 22px;
+	color: #999;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+	cursor: pointer;
+	display:inline-block;
+	line-height: 22px;
+	margin-left: 20px;
+	padding-left: 25px;
+	background: url(../img/list-cart.png) no-repeat  left center;
+}
+.tabPrice a:hover{
+	color: red;
+}
+
+/*按钮*/
+.pocList .pro-btn{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.pro-btn li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #666666;
+	color: #fff;
+	cursor: pointer;
+	margin: 0 5px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.pro-btn .page{
+	width: 60px;
+	display: inline-block;
+}
+.pro-btn li.click{
+	background: #B40C10;
+}
+.pro-btn li:hover{
+	color: #B40C10;
+}
+
+/*购物车弹窗*/
+.alt-succW{
+	width: 310px;
+	height: 113px;
+	border-radius: 5px;
+	background: rgba(0,0,0,0.5);
+	position:fixed;
+	left: 37%;
+	top: 33%;
+	z-index: 10001;
+	padding: 8px;
+	display: none;
+}
+.alt-succ{
+	width: 300px;
+	height: 103px;
+	background: #fff;
+	padding: 5px;
+}
+.alt-succ p{
+	height: 30px;
+}
+.alt-succ p span{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	background: #909090;
+	float: right;
+	cursor: pointer;
+}
+.alt-succ h2{
+	text-align: center;
+	font-size: 16px;
+	height: 30px;
+	margin-bottom: 7px;
+}
+.alt-succ div{
+	text-align: center;
+}
+.alt-succ div b{
+	display: inline-block;
+	font-weight: normal;
+	color: red;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.alt-succ div a{
+	display: inline-block;
+	height: 25px;
+	width: 100px;
+	background: #ca1728;
+	font-size: 14px;
+	color: #fff;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 7px;
+	
+}
+
